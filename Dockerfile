@@ -13,7 +13,7 @@ RUN apk add --no-cache python3-dev \
                        jpeg-dev \
                        linux-headers
 RUN pip3 install --upgrade pip && apt-get clean
-RUN pip install requests
+RUN pip3 install requests
 
 EXPOSE 80
 
